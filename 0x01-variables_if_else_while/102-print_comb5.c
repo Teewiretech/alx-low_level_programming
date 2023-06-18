@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  * Return: Always 0
  */
 
@@ -11,6 +11,7 @@ int main(void)
 
 {
 	int p, q;
+
 	for (p = 0; p <= 98; p++)
 	{
 
@@ -18,7 +19,7 @@ int main(void)
 	{
 	putchar((p / 10) + '0');
 	putchar((p % 10) + '0');
-	putchar(' ');
+	putchar(',');
 	putchar((q / 10) + '0');
 	putchar((q % 10) + '0');
 	if (p == 98 && q == 99)
